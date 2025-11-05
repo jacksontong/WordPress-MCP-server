@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "wordpress": {
+      "command": "/workspaces/mcp-calculator-server/.venv/bin/python",
+      "args": [
+        "/workspaces/mcp-calculator-server/server.py"
+      ],
+      "env": {}
+    }
+  }
+}
