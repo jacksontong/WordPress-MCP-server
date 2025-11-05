@@ -73,9 +73,7 @@ python server.py
 
 ## Available Prompts
 
-- `wordpress_post_creation_guide` - Best practices for creating posts
-- `wordpress_content_management` - Content management workflow
-- `wordpress_troubleshooting` - Common issues and solutions
+- `create_new_post(topic, post_type, target_audience)` - Generate a complete WordPress post about a specific topic with structured content and formatting guidance
 
 ## License
 
