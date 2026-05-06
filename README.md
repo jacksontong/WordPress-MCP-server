@@ -20,17 +20,20 @@ A Model Context Protocol (MCP) server that provides tools for managing WordPress
 ### Setup
 
 1. **Create a virtual environment with Python 3.12.11:**
+
    ```bash
    python3.12 -m venv venv
    source venv/bin/activate
    ```
 
 2. **Install dependencies:**
+
    ```bash
    pip install -r requirements.txt
    ```
 
 3. **Install uv:**
+
    ```bash
    pipx install uv
    ```
@@ -38,6 +41,7 @@ A Model Context Protocol (MCP) server that provides tools for managing WordPress
 4. **Configure environment variables:**
 
    Create a `.env` file in the project root:
+
    ```
    WORDPRESS_URL=https://your-wordpress-site.com
    WORDPRESS_USERNAME=your_username
@@ -51,6 +55,7 @@ A Model Context Protocol (MCP) server that provides tools for managing WordPress
 ### Development Mode
 
 Run the MCP inspector for testing:
+
 ```bash
 mcp dev server.py
 ```
@@ -74,7 +79,3 @@ python server.py
 ## Available Prompts
 
 - `create_new_post(topic, post_type, target_audience)` - Generate a complete WordPress post about a specific topic with structured content and formatting guidance
-
-## License
-
-MIT
